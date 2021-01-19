@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.container {
+	font-family: "Ubuntu";
+	max-width: 500px;
+	margin: 2rem auto;
+	border: 2px solid rgb(167, 167, 219);
+	padding: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.input {
+	padding: 0.5rem;
+	width: 24rem;
+	margin-bottom: 4rem;
+}
+
+.btn {
+	color: rgb(8, 8, 128);
+	padding: 0.5rem;
+	max-width: 3rem;
+	margin-bottom: 4rem;
+	margin-left: 0.5rem;
+}
+
+.dd-header {
+	border-bottom: 2px solid rgb(199, 199, 199);
+	display: block;
+	justify-content: space-between;
+	cursor: pointer;
+	max-width: 25rem;
+	padding-left: 1rem;
+}
+
+h3 {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+h3:hover {
+	background-color: rgb(167, 167, 219);
+}
+
+p {
+	font-size: 18px;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: 14rem;
+	width: 50%;
+}
+
+@media (max-width: 640px) {
+	h1 {
+		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	.container {
+		padding: 2rem 1rem;
+		border: none;
+	}
+
+	.input {
+		width: 15rem;
+	}
+
+	.btn {
+	}
+}
